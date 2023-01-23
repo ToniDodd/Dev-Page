@@ -67,7 +67,7 @@ p {
   border: 1px solid var(--primary-color);
 }
 a.yoga-link {
-  text-align: left !important;
+  text-align: left;
   background: #6c63ff;
 }
 
@@ -99,4 +99,13 @@ a.yoga-link {
 
 .email-link:hover {
   text-decoration: underline;
+}
+@media (max-width: 576px) {
+  .container-fluid {
+    text-align: center;
+    width: 80%;
+  }
+  h1 {
+    text-align: center;
+  }
 }
